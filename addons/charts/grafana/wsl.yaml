@@ -25,7 +25,10 @@ ingress:
   enabled: true
   ingressClassName: public
   hosts:
-    - grafana.wsl.localhost
+    - grafana.local
+
+adminUser: admin
+adminPassword: P@ssw0rd
 
 dashboardProviders:
   dashboardproviders.yaml:
